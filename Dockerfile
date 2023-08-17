@@ -6,6 +6,6 @@ COPY package.json ./
 
 RUN npm install
 
-COPY . .
+# COPY . . # not relevant when mounting a volume
 
 CMD ["npm", "run", "start_safe"]

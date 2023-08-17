@@ -36,13 +36,6 @@ const Analytics = () => {
 					<Grid item lg={8} md={8} sm={12} xs={12}>
 						<H4>Ongoing Projects</H4>
 					</Grid>
-
-					<Grid item lg={4} md={4} sm={12} xs={12}>
-						<Card sx={{ px: 3, py: 2, mb: 3 }}>
-							<Title>Traffic Sources</Title>
-							<SubTitle>Last 30 days</SubTitle>
-						</Card>
-					</Grid>
 				</Grid>
 			</ContentBox>
 		</Fragment>
